@@ -4,6 +4,6 @@ spring:
   application.name: ${APPLICATION_NAME:spring-security-keycloak}
 keycloak:
   auth-server-url: http://localhost:8484/auth
-  realm: my_realm
-  resource: my_client
+  realm: realm
+  resource: client
   public-client: true
